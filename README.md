@@ -22,7 +22,13 @@
   - Plan for scalability, security, and compliance.
 - **Output:** Architecture diagrams and service selection.
 
-### 3. Project Planning
+
+### 3. CI/CD Planning and Design
+
+- **Duration:** Concurrent with Architecture Design - 1-2 weeks
+- **Activities:** Decide on CI/CD tools (e.g., AWS CodePipeline), define stages of the pipeline.
+
+### 4. Project Planning
 
 - **Duration:** 1 week
 - **Activities:**
@@ -30,8 +36,8 @@
   - Estimate time for each task based on complexity.
   - Allocate resources and set deadlines.
 - **Output:** Project plan and timeline.
-3
-### 4. Development and Configuration
+
+### 5. Development and Configuration
 
 - **Duration:** Variable (3-6 months)
 - **Factors Affecting Duration:**
@@ -44,7 +50,12 @@
   - Configure databases, S3 buckets, and other AWS services.
 - **Output:** Working AWS infrastructure.
 
-### 5. Testing
+### 6. CI/CD Implementation
+
+- **Duration:** Concurrent with Development and Configuration - Adds an additional 1-2 months
+- **Activities:** Set up source control, build CI pipelines, create CD pipelines, integrate with the AWS environment.
+
+### 7. Testing
 
 - **Duration:** 3-5 weeks
 - **Activities:**
@@ -54,7 +65,12 @@
   - Perform load testing to ensure scalability.
 - **Output:** Test reports and a stable system.
 
-### 6. Deployment
+### 8. CI/CD Testing and Optimization
+
+   - **Duration:** Concurrent with Testing phase - Adds 1 week
+   - **Activities:** Test CI/CD pipeline, optimize for performance and reliability.
+
+### 9. Deployment
 
 - **Duration:** 1-2 weeks
 - **Activities:**
@@ -62,7 +78,7 @@
   - Perform final checks and validations.
 - **Output:** Live system in production.
 
-### 7. Post-Deployment Monitoring and Optimization
+### 10. Post-Deployment Monitoring and Optimization
 
 - **Duration:** Ongoing
 - **Activities:**
@@ -70,7 +86,7 @@
   - Optimize configurations for cost, performance, and security.
 - **Output:** Optimized and stable production system.
 
-### 8. Documentation and Training
+### 11. Documentation and Training
 
 - **Duration:** 1-2 weeks
 - **Activities:**
