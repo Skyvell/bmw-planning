@@ -9,7 +9,7 @@
 - **Duration:** 1-2 weeks
 - **Activities:**
   - Define and document the project scope.
-  - Identify all the AWS components and external integrations (like Core View).
+  - Identify all the AWS components and external integrations (E.g. Core View).
   - Understand the data formats, security requirements, and compliance needs.
 - **Output:** A detailed requirement document.
 
@@ -26,14 +26,14 @@
 
 - **Duration:** 1 week
 - **Activities:**
-  - Break down the project into smaller tasks or sprints (if using Agile methodology).
+  - Break down the project into smaller tasks or sprints.
   - Estimate time for each task based on complexity.
   - Allocate resources and set deadlines.
 - **Output:** Project plan and timeline.
-
+3
 ### 4. Development and Configuration
 
-- **Duration:** Variable (2-6 months)
+- **Duration:** Variable (3-6 months)
 - **Factors Affecting Duration:**
   - Complexity of the calculations and data processing logic.
   - Integration complexity with Core View and other systems.
@@ -46,8 +46,9 @@
 
 ### 5. Testing
 
-- **Duration:** 2-4 weeks
+- **Duration:** 3-5 weeks
 - **Activities:**
+  - Some of these tasks will be done concurrently with development (e.g. unit tests).
   - Perform unit testing, integration testing, and system testing.
   - Test data processing logic, AWS service configurations, and Core View integration.
   - Perform load testing to ensure scalability.
@@ -86,3 +87,19 @@
 ### Final Note
 
 The actual duration will depend on the complexity of your specific requirements, the size of your team, their skill levels, and external dependencies. Regularly review the project progress against the plan and adjust timelines as necessary.
+
+Incorporating CI/CD into your AWS infrastructure project planning, you can allocate additional time for setting up and integrating the CI/CD pipeline as follows:
+
+1. **CI/CD Planning and Design**
+   - **Duration:** Concurrent with Architecture Design - 1-2 weeks
+   - **Activities:** Decide on CI/CD tools (e.g., AWS CodePipeline), define stages of the pipeline.
+
+2. **CI/CD Implementation**
+   - **Duration:** Concurrent with Development and Configuration - Adds an additional 1-2 months
+   - **Activities:** Set up source control, build CI pipelines, create CD pipelines, integrate with the AWS environment.
+
+3. **CI/CD Testing and Optimization**
+   - **Duration:** Concurrent with Testing phase - Adds 1 week
+   - **Activities:** Test CI/CD pipeline, optimize for performance and reliability.
+
+By integrating CI/CD into the initial timeline, the total duration of the project might increase slightly, but it also ensures a more robust, efficient, and automated deployment process.
