@@ -2,6 +2,9 @@
 
 ## Overview infrastructure
 
+![Initial draft of architecture](overview.png)
+
+
 ## Time estimation
 
 ### 1. Requirement Gathering and Analysis
