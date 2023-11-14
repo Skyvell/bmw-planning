@@ -59,6 +59,7 @@ File upload flow:
   - Complexity of the calculations and data processing logic.
   - Integration complexity with Core View and other systems.
   - Responsiveness and burocracy of BMW.
+  - Tool requirements of BMW (programming language, CI/CD tools etc.)
   - Custom development vs. using out-of-the-box AWS solutions.
 - **Activities:**
   - Setup AWS accounts for dev, stage and prod.
