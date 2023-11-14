@@ -58,6 +58,7 @@ File upload flow:
 - **Factors Affecting Duration:**
   - Complexity of the calculations and data processing logic.
   - Integration complexity with Core View and other systems.
+  - Responsiveness and burocracy of BMW.
   - Custom development vs. using out-of-the-box AWS solutions.
 - **Activities:**
   - Setup AWS accounts for dev, stage and prod.
