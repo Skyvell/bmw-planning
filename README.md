@@ -21,6 +21,7 @@ File upload flow:
 - **Duration:** 1-2 weeks
 - **Activities:**
   - Define and document the project scope.
+  - Does BMW have requirement for certain tools (e.g. programming language, CICD)?
   - Understand the data formats, security requirements, and compliance needs.
   - Understand the scalability/throughput needs of the product.
   - Indentify AWS components and external integrations (e.g. Core View).
@@ -29,10 +30,11 @@ File upload flow:
 
 ### 2. Architecture Design
 
-- **Duration:** 2-4 weeks
+- **Duration:** 2-3 weeks
 - **Activities:**
   - Design the detailed architecture.
   - Database design.
+  - What does the incomming data look like?
   - Identify necessary AWS services and how they will interact.
   - Plan for scalability, security, and compliance.
 - **Output:** Architecture diagrams and service selection.
@@ -40,7 +42,7 @@ File upload flow:
 
 ### 3. CI/CD Planning and Design
 
-- **Duration:** Concurrent with Architecture Design - 1-2 weeks
+- **Duration:** Concurrent with Architecture Design - 1 week
 - **Activities:** Decide on CI/CD tools, define stages of the pipeline.
 
 ### 4. Project Planning
@@ -54,7 +56,7 @@ File upload flow:
 
 ### 5. Development and Configuration
 
-- **Duration:** Variable (3-7 months)
+- **Duration:** Variable (2-3 months)
 - **Factors Affecting Duration:**
   - Complexity of the calculations and data processing logic.
   - Integration complexity with Core View and other systems.
@@ -64,19 +66,21 @@ File upload flow:
 - **Activities:**
   - Setup AWS accounts for dev, stage and prod.
   - Setup AWS environment (VPC, IAM roles, etc.).
-  - Develop Lambda functions, data processing scripts, and integration points.
+  - Develop Lambda functions.
+  - Integrate towards Core View.
   - Write SQL for database schemas.
-  - Configure databases, S3 buckets, and other AWS services.
+  - Configure RDS, S3 buckets, lambdas, SQS and other AWS services.
+  - Write all cloudformation template files.
 - **Output:** Working AWS infrastructure.
 
 ### 6. CI/CD Implementation
 
-- **Duration:** Concurrent with Development and Configuration - Adds an additional 1-2 months
+- **Duration:** Concurrent with Development and Configuration - Adds an additional 2-4 weeks.
 - **Activities:** Set up source control, build CI pipelines, create CD pipelines, integrate with the AWS environments.
 
 ### 7. Testing
 
-- **Duration:** 3-5 weeks
+- **Duration:** 2-3 weeks
 - **Activities:**
   - Some of these tasks will be done concurrently with development (e.g. unit tests).
   - Perform unit testing, integration testing, and system testing.
@@ -86,7 +90,7 @@ File upload flow:
 
 ### 8. CI/CD Testing and Optimization
 
-   - **Duration:** Concurrent with Testing phase - Adds 1 week
+   - **Duration:** Concurrent with Development - Adds 1 week
    - **Activities:** Test CI/CD pipeline, optimize for performance and reliability.
 
 ### 9. Deployment
