@@ -89,9 +89,8 @@
 
 ### 7. Testing
 
-- **Duration:** 2-4 weeks
+- **Duration:** Concurrent with Development and Development - Adds and additonal 2-4 weeks.
 - **Activities:**
-  - Some of these tasks will be done concurrently with development (e.g. unit tests).
   - Perform unit testing.
   - Test data processing logic.
   - Test AWS service configurations.
