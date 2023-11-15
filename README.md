@@ -24,7 +24,9 @@
 - **Activities:**
   - Design the detailed architecture.
   - Database design.
-  - What does the incomming data look like?
+  - Identify structure of incomming data.
+  - Flowchart for calculations lambda.
+  - Flowchart for parsing lambda.
   - Identify necessary AWS services and how they will interact.
   - Plan for scalability, security, and compliance.
 - **Output:** Architecture diagrams and service selection.
@@ -33,7 +35,15 @@
 ### 3. CI/CD Planning and Design
 
 - **Duration:** Concurrent with Architecture Design - 1 week
-- **Activities:** Decide on CI/CD tools, define stages of the pipeline.
+- **Activities:**
+  - Decide on CI/CD tools (preferably github actions).
+  - Repository structure and settings.
+  - Pick branching strategy.
+  - Secret management.
+  - Repository access control.
+  - Plan automated testing.
+  - Building and deployment.
+- **Output:** Document for CI/CD design, configured repository.
 
 ### 4. Project Planning
 
@@ -67,6 +77,7 @@
 
 - **Duration:** Concurrent with Development and Configuration - Adds an additional 2-3 weeks.
 - **Activities:** Set up source control, build CI pipelines, create CD pipelines, integrate with the AWS environments.
+- **Output:** Fully working CI/CD pipelines.
 
 ### 7. Testing
 
@@ -77,7 +88,7 @@
   - Test data processing logic, AWS service configurations, and Core View integration.
   - Test end to end flow.
   (- Perform load testing to ensure scalability)
-- **Output:** Test reports and a stable system.
+- **Output:** High test coverage and end-to-end test (data insertion -> Coreview write).
 
 ### 8. CI/CD Testing and Optimization
 
