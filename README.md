@@ -96,8 +96,7 @@
   - Test AWS service configurations.
   - Test Core View integration.
   - Test end to end flow.
-  (- Perform load testing to ensure scalability)
-- **Output:** High test coverage and end-to-end test (data insertion -> Coreview write).
+- **Output:** High test coverage and tested system.
 
 ### 8. Deployment
 
