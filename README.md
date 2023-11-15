@@ -1,18 +1,8 @@
 # bwm-planning
 
 ## Overview infrastructure
-Indata flow:
-1. Indata from external AWS account uploaded to S3. Depending on the data it could also be sent directly to an SQS queue and skip the S3 bucket.
-2. Either the S3 bucket triggers the lambda directly and the calculation lambda reads data from S3, or we use a SQS queue in between. Depends on the project requirements.
-3. The calculation lambda reads the incomming data from the S3 bucket and performs the necessary calculations. It will interact with RDS to fetch data required for calculations.
-4. The calculation lamda will write the results to Core View.
 
-File upload flow:
-1. Files will be uploaded to S3 (commission matrix and sales targets).
-2. This will trigger the parsing labmda that will parses this data into RDS.
-
-![Initial draft of architecture](overview.png)
-
+![Initial draft of architecture](design_2.png)
 
 ## Time estimation
 
@@ -69,7 +59,8 @@ File upload flow:
   - Integrate towards Core View.
   - Write SQL for database schemas.
   - Configure RDS, S3 buckets, lambdas, SQS and other AWS services.
-  - Write all cloudformation template files.
+    - CDK?
+    - Cloudformation?
 - **Output:** Working AWS infrastructure.
 
 ### 6. CI/CD Implementation
@@ -79,7 +70,7 @@ File upload flow:
 
 ### 7. Testing
 
-- **Duration:** 2-3 weeks
+- **Duration:** 2-4 weeks
 - **Activities:**
   - Some of these tasks will be done concurrently with development (e.g. unit tests).
   - Perform unit testing.
