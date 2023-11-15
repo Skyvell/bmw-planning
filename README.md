@@ -14,7 +14,8 @@
   - Does BMW have requirement for certain tools (e.g. programming language, CI/CD)?
   - Understand the data formats, security requirements, and compliance needs.
   - Understand the scalability/throughput needs of the product.
-  - Indentify AWS components and external integrations (e.g. Core View).
+  - Indentify AWS components and external integrations.
+  - Core View does not seem to have its own API. Investigate how to interact with Core View.
   - Pick tools to use that suit these needs.
 - **Output:** A detailed requirement document.
 
@@ -30,7 +31,6 @@
   - Identify necessary AWS services and how they will interact.
   - Plan for scalability, security, and compliance.
 - **Output:** Architecture diagrams and service selection.
-
 
 ### 3. CI/CD Planning and Design
 
