@@ -4,7 +4,7 @@
 Indata flow:
 1. Indata from external AWS account uploaded to S3.
 2. Either the S3 bucket triggers the lambda directly and the calculation lambda reads data from S3, or we use a SQS queue in between. Depends on the project requirements.
-3. The calculation lambda reads the incomming data from the S3 bucket and performs the necessary calculations. It will interact with RDS to fetch some data required for calculations.
+3. The calculation lambda reads the incomming data from the S3 bucket and performs the necessary calculations. It will interact with RDS to fetch data required for calculations.
 4. The calculation lamda will write the results to Core View.
 
 File upload flow:
@@ -83,8 +83,9 @@ File upload flow:
 - **Duration:** 2-3 weeks
 - **Activities:**
   - Some of these tasks will be done concurrently with development (e.g. unit tests).
-  - Perform unit testing, integration testing, and system testing.
+  - Perform unit testing.
   - Test data processing logic, AWS service configurations, and Core View integration.
+  - Test end to end flow.
   (- Perform load testing to ensure scalability)
 - **Output:** Test reports and a stable system.
 
@@ -95,7 +96,7 @@ File upload flow:
 
 ### 9. Deployment
 
-- **Duration:** 1-2 weeks
+- **Duration:** 1 week
 - **Activities:**
   - Deploy the solution to the production environment.
   - Perform final checks and validations.
