@@ -56,7 +56,7 @@ File upload flow:
 
 ### 5. Development and Configuration
 
-- **Duration:** Variable (2-4 months)
+- **Duration:** Variable (2-3 months)
 - **Factors Affecting Duration:**
   - Complexity of the calculations and data processing logic.
   - Integration complexity with Core View and other systems.
