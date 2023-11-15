@@ -64,14 +64,14 @@
   - Tool requirements of BMW (programming language, CI/CD tools etc.)
 - **Activities:**
   - Setup AWS account for dev.
-  - Configure AWS infrastructure either with cloudformation or CDK.
-    - SQS
-    - S3 bucket
-    - Calculation lambda
-    - Parsing lambda
-    - RDS
-    - IAM roles
-    - VPC
+  - Configure AWS infrastructure either with cloudformation or CDK:
+    - SQS.
+    - S3 bucket.
+    - Calculation lambda.
+    - Parsing lambda.
+    - RDS.
+    - IAM roles.
+    - VPC.
   - Develop parsing lambda.
   - Develop calculation lambda.
   - Write SQL for database schemas.
