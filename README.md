@@ -63,20 +63,28 @@
   - Responsiveness and burocracy of BMW.
   - Tool requirements of BMW (programming language, CI/CD tools etc.)
 - **Activities:**
-  - Setup AWS accounts for dev, stage and prod?
-  - Setup AWS environment (VPC, IAM roles, etc.).
-  - Develop Lambda functions.
-  - Integrate towards Core View.
+  - Setup AWS account for dev.
+  - Configure AWS infrastructure either with cloudformation or CDK.
+    - SQS
+    - S3 bucket
+    - Calculation lambda
+    - Parsing lambda
+    - RDS
+    - IAM roles
+    - VPC
+  - Develop parsing lambda.
+  - Develop calculation lambda.
   - Write SQL for database schemas.
-  - Configure RDS, S3 buckets, lambdas, SQS and other AWS services.
-    - CDK?
-    - Cloudformation?
+  - Integrate towards Core View.
 - **Output:** Working AWS infrastructure.
 
 ### 6. CI/CD Implementation
 
 - **Duration:** Concurrent with Development and Configuration - Adds an additional 2 weeks.
-- **Activities:** Set up source control, build CI pipelines, create CD pipelines, integrate with the AWS environments.
+- **Activities:** 
+  - Set up source control.
+  - Build CI pipelines.
+  - Create CD pipelines.
 - **Output:** Fully working CI/CD pipelines.
 
 ### 7. Testing
@@ -85,7 +93,9 @@
 - **Activities:**
   - Some of these tasks will be done concurrently with development (e.g. unit tests).
   - Perform unit testing.
-  - Test data processing logic, AWS service configurations, and Core View integration.
+  - Test data processing logic.
+  - Test AWS service configurations.
+  - Test Core View integration.
   - Test end to end flow.
   (- Perform load testing to ensure scalability)
 - **Output:** High test coverage and end-to-end test (data insertion -> Coreview write).
