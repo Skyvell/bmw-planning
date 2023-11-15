@@ -24,7 +24,7 @@
 
 - **Duration:** 2-3 weeks
 - **Activities:**
-  - Design the detailed architecture.
+  - Detailed architecture.
   - Database design.
   - Flowchart for calculations lambda.
   - Flowchart for parsing lambda.
