@@ -2,7 +2,7 @@
 
 ## Overview infrastructure
 Indata flow:
-1. Indata from external AWS account uploaded to S3.
+1. Indata from external AWS account uploaded to S3. Depending on the data it could also be sent directly to an SQS queue and skip the S3 bucket.
 2. Either the S3 bucket triggers the lambda directly and the calculation lambda reads data from S3, or we use a SQS queue in between. Depends on the project requirements.
 3. The calculation lambda reads the incomming data from the S3 bucket and performs the necessary calculations. It will interact with RDS to fetch data required for calculations.
 4. The calculation lamda will write the results to Core View.
@@ -21,7 +21,7 @@ File upload flow:
 - **Duration:** 1-2 weeks
 - **Activities:**
   - Define and document the project scope.
-  - Does BMW have requirement for certain tools (e.g. programming language, CICD)?
+  - Does BMW have requirement for certain tools (e.g. programming language, CI/CD)?
   - Understand the data formats, security requirements, and compliance needs.
   - Understand the scalability/throughput needs of the product.
   - Indentify AWS components and external integrations (e.g. Core View).
@@ -62,9 +62,8 @@ File upload flow:
   - Integration complexity with Core View and other systems.
   - Responsiveness and burocracy of BMW.
   - Tool requirements of BMW (programming language, CI/CD tools etc.)
-  - Custom development vs. using out-of-the-box AWS solutions.
 - **Activities:**
-  - Setup AWS accounts for dev, stage and prod.
+  - Setup AWS accounts for dev, stage and prod?
   - Setup AWS environment (VPC, IAM roles, etc.).
   - Develop Lambda functions.
   - Integrate towards Core View.
@@ -75,7 +74,7 @@ File upload flow:
 
 ### 6. CI/CD Implementation
 
-- **Duration:** Concurrent with Development and Configuration - Adds an additional 2-4 weeks.
+- **Duration:** Concurrent with Development and Configuration - Adds an additional 2-3 weeks.
 - **Activities:** Set up source control, build CI pipelines, create CD pipelines, integrate with the AWS environments.
 
 ### 7. Testing
