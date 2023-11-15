@@ -11,12 +11,13 @@
 - **Duration:** 1-2 weeks
 - **Activities:**
   - Define and document the project scope.
-  - Does BMW have requirement for certain tools (e.g. programming language, CI/CD)?
+  - Does BMW have requirement for certain tools (e.g. programming language, CI/CD, CDK vs cloudformation)?
   - Understand the data formats, security requirements, and compliance needs.
+  - Identify structure of incomming data from external AWS account.
+  - Identify the structure and size of the data in the files to be uploaded.
   - Understand the scalability/throughput needs of the product.
   - Indentify AWS components and external integrations.
   - Core View does not seem to have its own API. Investigate how to interact with Core View.
-  - Pick tools to use that suit these needs.
 - **Output:** A detailed requirement document.
 
 ### 2. Architecture Design
@@ -25,10 +26,9 @@
 - **Activities:**
   - Design the detailed architecture.
   - Database design.
-  - Identify structure of incomming data.
   - Flowchart for calculations lambda.
   - Flowchart for parsing lambda.
-  - Identify necessary AWS services and how they will interact.
+  - Identify necessary AWS services, how they interact and pick the optimal composition depending on the requirements.
   - Plan for scalability, security, and compliance.
 - **Output:** Architecture diagrams and service selection.
 
@@ -75,7 +75,7 @@
 
 ### 6. CI/CD Implementation
 
-- **Duration:** Concurrent with Development and Configuration - Adds an additional 2-3 weeks.
+- **Duration:** Concurrent with Development and Configuration - Adds an additional 2 weeks.
 - **Activities:** Set up source control, build CI pipelines, create CD pipelines, integrate with the AWS environments.
 - **Output:** Fully working CI/CD pipelines.
 
