@@ -90,12 +90,7 @@
   (- Perform load testing to ensure scalability)
 - **Output:** High test coverage and end-to-end test (data insertion -> Coreview write).
 
-### 8. CI/CD Testing and Optimization
-
-   - **Duration:** Concurrent with Development - Adds 1 week
-   - **Activities:** Test CI/CD pipeline, optimize for performance and reliability.
-
-### 9. Deployment
+### 8. Deployment
 
 - **Duration:** 1 week
 - **Activities:**
@@ -103,7 +98,7 @@
   - Perform final checks and validations.
 - **Output:** Live system in production.
 
-### 10. Post-Deployment Monitoring and Optimization
+### 9. Post-Deployment Monitoring and Optimization
 
 - **Duration:** Ongoing
 - **Activities:**
