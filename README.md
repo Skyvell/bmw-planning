@@ -47,7 +47,7 @@
 
 ### 4. Project Planning
 
-- **Duration:** 1 week
+- **Duration:** 3 days
 - **Activities:**
   - Break down the project into smaller tasks or sprints.
   - Estimate time for each task based on complexity.
