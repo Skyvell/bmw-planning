@@ -56,7 +56,7 @@
 
 ### 5. Development and Configuration
 
-- **Duration:** Variable (2-3 months)
+- **Duration:** Variable (6-12 weeks)
 - **Factors Affecting Duration:**
   - Complexity of the calculations and data processing logic.
   - Integration complexity with Core View and other systems.
