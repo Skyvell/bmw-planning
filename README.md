@@ -34,7 +34,7 @@
 
 ### 3. CI/CD Planning and Design
 
-- **Duration:** Concurrent with Architecture Design - 1 week
+- **Duration:** Concurrent with Architecture Design - 3 days
 - **Activities:**
   - Decide on CI/CD tools (preferably github actions).
   - Repository structure and settings.
