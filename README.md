@@ -1,6 +1,7 @@
 # bwm-planning
 
 ## Overview infrastructure
+The following overview architecture is an initial draft based on the information currently available to us. This overview is subject to change.
 
 ![Initial draft of architecture](design_2.png)
 
