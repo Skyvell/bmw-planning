@@ -34,7 +34,7 @@
 
 ### 3. CI/CD Planning and Design
 
-- **Duration:** Concurrent with Architecture Design - 2 days
+- **Duration:** Concurrent with Architecture Design - 2-3 days
 - **Activities:**
   - Decide on CI/CD tools (preferably github actions).
   - Repository structure and settings.
@@ -47,9 +47,8 @@
 
 ### 4. Project Planning
 
-- **Duration:** 2 days
+- **Duration:** 2-3 days
 - **Activities:**
-  - Break down the project into smaller tasks or sprints.
   - Estimate time for each task based on complexity.
   - Allocate resources and set deadlines.
 - **Output:** Project plan and timeline.
@@ -60,8 +59,7 @@
 - **Factors Affecting Duration:**
   - Complexity of the calculations and data processing logic.
   - Integration complexity with Core View and other systems.
-  - Responsiveness and burocracy of BMW.
-  - Tool requirements of BMW (programming language, CI/CD tools etc.)
+  - Tool requirements of BMW (programming language, CI/CD tools etc.).
 - **Activities:**
   - Setup AWS account for dev.
   - Configure AWS infrastructure either with cloudformation or CDK:
@@ -69,12 +67,15 @@
     - S3 bucket.
     - Calculation lambda.
     - Parsing lambda.
-    - RDS.
+    - RDS/DynamoDB.
     - IAM roles.
     - VPC.
   - Develop parsing lambda.
   - Develop calculation lambda.
+  - Develop Core View integration.
   - Write SQL for database schemas.
+  - Unit testing.
+  - Test AWS service configurations.
 - **Output:** Working AWS infrastructure.
 
 ### 6. CI/CD Implementation
@@ -89,15 +90,12 @@
 ### 7. Testing
 
 - **Duration:** Concurrent with Development and Development - Adds and additonal 2-4 weeks.
-- **Activities:**
-  - Perform unit testing.
-  - Test data processing logic.
-  - Test AWS service configurations.
-  - Test Core View integration.
+- **Activities:**.
+  - Integration tests.
   - Test end to end flow.
 - **Output:** High test coverage and tested system.
 
-### 8. Deployment
+### 8. Deployment to Production
 
 - **Duration:** 1 week
 - **Activities:**
@@ -112,3 +110,8 @@
   - Monitor system performance and stability.
   - Optimize configurations for cost, performance, and security.
 - **Output:** Optimized and stable production system.
+
+### Time Estimation Summary
+
+- **Estimated minimum duration:** 15 weeks.
+- **Estimated maximum duration:** 25 weeks.
