@@ -1,9 +1,9 @@
 # bwm-planning
 
 ## Overview infrastructure
-The following overview architecture is an initial draft based on the information currently available to us. This overview is subject to change.
+The following overview architecture is an initial draft based on the information currently available to us. This overview is subject to change. At this time, it is a bit unclear if the data will be sent to the new AWS account (e.g. published to an SQS queue), or if it should be fetched from an API.
 
-![Initial draft of architecture](design_2.png)
+![Initial draft of architecture](design_2_b.png)
 
 ## Time estimation
 
