@@ -34,7 +34,7 @@
 
 ### 3. CI/CD Planning and Design
 
-- **Duration:** Concurrent with Architecture Design - 3 days
+- **Duration:** Concurrent with Architecture Design - 2 days
 - **Activities:**
   - Decide on CI/CD tools (preferably github actions).
   - Repository structure and settings.
@@ -47,7 +47,7 @@
 
 ### 4. Project Planning
 
-- **Duration:** 3 days
+- **Duration:** 2 days
 - **Activities:**
   - Break down the project into smaller tasks or sprints.
   - Estimate time for each task based on complexity.
@@ -75,7 +75,6 @@
   - Develop parsing lambda.
   - Develop calculation lambda.
   - Write SQL for database schemas.
-  - Integrate towards Core View.
 - **Output:** Working AWS infrastructure.
 
 ### 6. CI/CD Implementation
